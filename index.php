@@ -48,12 +48,12 @@
 <section id="contact-us" class="contact-us">
     <div class="container">
         <div class="left">
-            <h1>S</h1>
+            <h1></h1>
         </div>
         <div class="right"></div>
     </div>
 </section>
 
 <?php
-    include_once 'includes/footer.php';
+    include_once './includes/footer.php';
 ?>

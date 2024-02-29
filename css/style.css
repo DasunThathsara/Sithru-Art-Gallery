@@ -6,6 +6,7 @@ a{
     text-decoration: none;
 }
 
+/* ----------------------------- Navigation bar ----------------------------- */
 nav{
     position: fixed;
     width: 100vw;
@@ -86,7 +87,46 @@ li.dropdown {
     display: block;
 }
 
-/* -------------------- slide show -------------------- */
+/* --------------------------------- Footer --------------------------------- */
+footer{
+    background-color: #333333;
+    top: 20px;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    position: relative;
+}
+
+footer .copy{
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+footer ul li{
+    font-size: 20px;
+}
+
+footer ul li a{
+    color: white;
+    transition: 0.5s;
+}
+
+footer ul li a:hover{
+    color: #04AA6D;
+    transform: translateY(-2px);
+}
+
+
+/* ------------------------------- slide show ------------------------------- */
 .slide-show{
     top: 40px;
     max-height: 100vh;
