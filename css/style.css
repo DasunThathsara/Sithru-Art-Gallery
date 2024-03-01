@@ -2,6 +2,10 @@
     font-family: sans-serif;
 }
 
+body{
+    ovwerflow-x: hidden;
+}
+
 a{
     text-decoration: none;
 }
